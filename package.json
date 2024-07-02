@@ -97,8 +97,7 @@
     "yaml": "^2.4.5"
   },
   "scripts": {
-    "tailwind": "npx tailwindcss -i ./input.css -o ./output.css --watch",
-    "build:css":"npx tailwindcss ./input.css -o ./style.css --minify"
+  "build:css":"postcss /input.css -o /output.css"
   },
   "keywords": [],
   "author": "",
